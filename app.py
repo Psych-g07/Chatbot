@@ -8,7 +8,7 @@ def studentnumber():
 
 @app.route('/webhook', methods=['GET'])
 def weather():
-  return{'Barrie':'12 C'}
+  return{'Newyork':'12 C'}
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0',port=105)
